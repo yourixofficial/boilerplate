@@ -1,0 +1,32 @@
+$dark-gray: #111;
+$white: #fff;
+
+$main-color: $dark-gray;
+$second-color: $white;
+
+$tablet: "min-width: 768px";
+$desktop: "min-width: 1024px";
+
+body {
+	font-family: sans-serif;
+	font-size: 17px;
+	color: $main-color;
+}
+
+.wrap {
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+	@media screen and ($desktop) {
+		padding: 0;
+	}
+}
+
+.title {
+	font-size: 35px;
+	margin: 0 0 20px;
+}
+
+p {
+	margin: 0 0 20px;
+}
