@@ -1,5 +1,9 @@
 # boilerplate
 
-Goto to folder sass
+Terminal: npm i
 
-sass --watch main.scss:../style.css --style compressed
+Watch JS & SCSS
+Terminal: npm run dev
+
+Build
+Terminal: npm run build
